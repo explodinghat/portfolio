@@ -1,3 +1,6 @@
+#All Pi's - SD Card image
+- Follow https://www.raspberrypi.org/documentation/installation/installing-images/ instructions for creating the Pi SD card
+
 #All Pi's - Wifi and SSH
 - Add 'SSH' and wpasupplicant.conf to root (boot in windows) folder of the MicroSD card
 - copy/ edit wpa_supplicant.conf to root folder
