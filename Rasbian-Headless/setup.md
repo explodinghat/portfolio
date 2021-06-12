@@ -2,8 +2,8 @@
 - Follow https://www.raspberrypi.org/documentation/installation/installing-images/ instructions for creating the Pi SD card
 
 #All Pi's - Wifi and SSH
-- Add 'SSH' and wpasupplicant.conf to root (boot in windows) folder of the MicroSD card
-- copy/ edit wpa_supplicant.conf to root folder
+- Add 'SSH' and wpasupplicant.conf files to root (boot in windows) folder of the MicroSD card
+- copy/ edit (with wifi info) wpa_supplicant.conf to root folder
 
 #Pi Zero and Zero W - USB connex
 - open config.txt and add 'dtoverlay=dwc2' at the bottom of the file and save
@@ -23,5 +23,5 @@
 - sudo apt install git
 
 #python3 as default
-- Open your .bashrc file nano ~/.bashrc. Type alias python=python3 on to a new line at the top
-- type source ~/.bashrc
+- Open .bashrc file 'nano ~/.bashrc'. Type alias python=python3 on to a new line at the top
+- type 'source ~/.bashrc'
